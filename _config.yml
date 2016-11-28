@@ -184,9 +184,9 @@ social:
 # Sections shown in the index page
 
 pages_list:
+  About: 'about'
   Blog: 'vesti'
-  About: 'o s&sf'
-# Timeline: 'timeline'
+  # Timeline: 'timeline'
   Contact: 'kontakt'
 
 # Exclusion list from the generated _site
