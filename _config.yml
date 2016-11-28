@@ -184,10 +184,10 @@ social:
 # Sections shown in the index page
 
 pages_list:
+  Blog: 'latest-post'
   About: 'about'
-  Blog: 'vesti'
   # Timeline: 'timeline'
-  Contact: 'kontakt'
+  Contact: 'contact'
 
 # Exclusion list from the generated _site
 
