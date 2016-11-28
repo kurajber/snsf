@@ -37,15 +37,19 @@ h6 {
 }
 
 h2 {
+    display: inline-block;
     font-weight: 800;
-	box-shadow: -10px 10px 0px 0px rgba(229,229,229,1);
-	-webkit-box-shadow: -10px 10px 0px 0px rgba(229,229,229,1);
-	-moz-box-shadow: -10px 10px 0px 0px rgba(229,229,229,1);
+	box-shadow: -5px 5px 0px 0px rgba(229,229,229,1);
+	-webkit-box-shadow: -5px 5px 0px 0px rgba(229,229,229,1);
+	-moz-box-shadow: -5px 5px 0px 0px rgba(229,229,229,1);
 	}
 
 
 /* Added in { Personal } */
 h4 {
+    border:1px;
+	border-color:#5FB7D9;
+	
     a.category {
         color: inherit;
     }
@@ -53,8 +57,7 @@ h4 {
     a.tag {
         font-size: 12px;
     }
-	border:1px;
-	border-color:#5FB7D9;
+	
 }
 
 h4:hover {
