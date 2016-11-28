@@ -38,18 +38,17 @@ h6 {
 
 h2 {
     display: inline-block;
-	padding: 7px:
     font-weight: 800;
-	box-shadow: -8px 5px 0px 0px rgba(229,229,229,1);
-	-webkit-box-shadow: -8px 5px 0px 0px rgba(229,229,229,1);
-	-moz-box-shadow: -8px 5px 0px 0px rgba(229,229,229,1);
+	box-shadow: -5px 5px 0px 0px rgba(229,229,229,1);
+	-webkit-box-shadow: -5px 5px 0px 0px rgba(229,229,229,1);
+	-moz-box-shadow: -5px 5px 0px 0px rgba(229,229,229,1);
 	}
 
 
 /* Added in { Personal } */
 h4 {
-    border:1px; !important!
-	border-color:#5FB7D9; !important!
+    border:1px;
+	border-color:#5FB7D9;
 	
     a.category {
         color: inherit;

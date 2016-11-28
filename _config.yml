@@ -28,18 +28,18 @@ force-https: True
 # HTML Head #
 #############
 
-lang: "srb"
-author: "S&SF"
-title: "S&SF"
-description: "Official website of the S&SF (Science and Science Fiction) in Belgrade."
-keywords: "S&SF, Science, Science Fiction, convention, Belgrade, Serbia, Archeonauts, Carl Sagan, cosmos, space, universe, Nauka, Naučna fantastika, konvencija, Beograd, Srbija, Karl Segan, kosmos, univerzum, svemir"
-favicon: "/img/snsf_favicon.ico"
+lang: "en"
+author: "John Smith"
+title: "{ John Smith }"
+description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+keywords: "smith, jones, personal, jekyll, theme"
+favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black_snsf_favicon.ico"
+black-favicon: "/img/black-lab-glass.ico"
 
 background-img: "../img/intro-bg.jpg"
 
@@ -47,7 +47,7 @@ background-img: "../img/intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: False # Shuts down the text.
+dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -58,7 +58,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/snsf_logo.png"
+me-img: "/img/jetpacktocat.png"
 
 ##############################
 # Color the browser elements #
@@ -89,18 +89,18 @@ enable-gesture-navigation: True
 
 post-preview-words: 96
 
-paginate: 7
+paginate: 5
 
 email-share: True
 fb-share: True
 twitter-share: True
-linkedin-share: False
+linkedin-share: True
 reddit-share: True
 google-plus-share: True
-tumblr-share: False
+tumblr-share: True
 pinterest-share: True
-pocket-share: False
-vkontakte-share: False
+pocket-share: True
+vkontakte-share: True
 
 disqus-shortname: "panossakkos"
 
@@ -110,38 +110,34 @@ syntax-highlight: True
 # Timeline #
 ############
 
-# Timeline Hidden
-
-# events:
-#  - image: "/img/timeline/spidertocat.png"
-#    date: "September 2013 - Today"
-#    description: "Saving the neighborhood!"
-#  - image: "/img/timeline/baracktocat.jpg"
-#    date: "September 2007 - August 2013"
-#    description: "Started coding"
+events:
+  - image: "/img/timeline/spidertocat.png"
+    date: "September 2013 - Today"
+    description: "Saving the neighborhood!"
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "September 2007 - August 2013"
+    description: "Started coding"
 
 # First image of the Timeline
 
-# timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
 ###########
 
-email: "archeonauts@gmail.com"
+email: "your@email.here"
 
 ################
 # Author Blurb #
 ################
 
-# Author Blurb Hidden
-
 # The author blurb goes underneath blog posts.
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-# author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-# author_blurb_image: "/img/author.png"
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -150,14 +146,12 @@ email: "archeonauts@gmail.com"
 social:
   - title: "facebook"
     url: "https://facebook.com/"
-#  - title: "twitter"
-#    url: "https://twitter.com/"
-  - title: "youtube"
-    url: "www.youtube.com"
+  - title: "twitter"
+    url: "https://twitter.com/"
   - title: "github"
     url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-#  - title: "bitcoin"
- #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  - title: "bitcoin"
+    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
 
@@ -165,17 +159,15 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/error404.png"
+404-img: "/img/labtocat.png"
 
 ##################
 # GPG on Keybase #
 ##################
 
-# Keybase Hidden
-
-# keybase-username: johnsmith
-# keybase-in-social: True
-# keybase-in-footer: True
+keybase-username: johnsmith
+keybase-in-social: True
+keybase-in-footer: True
 
 ################################################################################
 
@@ -184,14 +176,14 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  Blog: 'vesti'
-  About: 'o s&sf'
-# Timeline: 'timeline'
-  Contact: 'kontakt'
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
 
 # Exclusion list from the generated _site
 
-exclude: ["LICENSE", "README.md", "CONTRIBUTORS", "scripts"]
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Pagination path
 
