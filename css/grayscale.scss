@@ -38,8 +38,8 @@ h6 {
 
 h2 {
     display: inline-block;
-	border-style: solid;
-	border-width:0 px;
+	border-style: none;
+	border-width: 1 px;
 	border-color: $font-color;
 	padding: 25px;
     font-weight: 800;
@@ -248,8 +248,8 @@ a {
 }
 
 .content-section {
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
     @media(min-width:767px) {
         margin-top: 125px;
         padding-top: 125px;
