@@ -39,7 +39,7 @@ h6 {
 h2 {
     display: inline-block;
 	border-style: solid;
-	border-width:0.1px;
+	border-width:0 px;
 	border-color: $font-color;
 	padding: 25px;
     font-weight: 800;
@@ -51,11 +51,7 @@ h2 {
 
 /* Added in { Personal } */
 h4 {
-    border-style: solid;
-    border-width: 1px;
-	border-color: #5FB7D9;
-	padding: 10px;
-	
+    
     a.category {
         color: inherit;
     }
@@ -65,11 +61,6 @@ h4 {
     }
 	
 }
-
-h4:hover {
-    border-style: solid;
-    border-width: 3px;
-	}
 
 
 p {
